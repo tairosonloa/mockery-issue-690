@@ -1,0 +1,9 @@
+with-expecter: true
+quiet: false
+packages:
+    go-pvpc:
+        config:
+            outpkg: storagemocks
+            output: internal/platform/storage/storagemocks
+        interfaces:
+            PricesZonesRepository:
